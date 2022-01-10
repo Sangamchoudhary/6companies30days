@@ -1,6 +1,4 @@
 
-The most clean code you will ever get
-
 Language --> C++
 
 Time --> O(N)
