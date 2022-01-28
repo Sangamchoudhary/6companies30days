@@ -10,10 +10,9 @@ class Solution {
         int ls = solve(root->left);
         int rs = solve(root->right);
         
-        int sum = root->data + ls + rs;
-        root->data = ls + rs;
+        root->data += + ls + rs;
         
-        return sum;
+        return root->data;
     }
   
     void toSumTree(Node *root){
